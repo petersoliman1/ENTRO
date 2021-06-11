@@ -1,0 +1,654 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Start topbar About */
+.top, .top a {
+    color:#A8A7A6; 
+    background-color:#222222;
+}
+
+.top a:hover {
+    color:#c638ca;
+}
+
+.topbar {
+    padding:15px 0; 
+    font-size:13px; 
+    text-transform:uppercase; 
+    text-align:center;
+}
+
+.topbar * {
+    margin:0; 
+    padding:0; 
+    list-style:none;
+}
+
+.topbar ul li {
+    display:inline-block; 
+    margin-right:10px; 
+    padding-right:15px; 
+    border-right:1px solid;
+}
+
+/* End topbar About */
+
+
+
+
+
+
+
+/* Start The logo and Button */
+
+.rounded {
+    width: 148px;
+    margin: 8px;
+}
+
+.button-one {
+    margin: 53px 0px 20px 180px;
+    font-weight: bold;
+    background-color: #f74e6f;
+    border: 1px solid #f74e6f;
+    color: white;
+}
+
+.button-one:hover {
+    background-color: transparent;
+    color: #000000;
+}
+
+/* End The logo and Button */
+
+
+
+
+
+
+
+
+/* Start Navbar */
+
+.bg-light {
+    background-color: #222222!important;
+}
+
+.navbar-light .navbar-brand {
+    color: #c638ca;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #f74e6f;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #f74e6f;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #f74e6f;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #c638ca;
+}
+
+.dropdown-menu {
+    color: rgb(247 78 111);
+    background-color: #222;
+}
+
+.dropdown-item {
+    color: #f74e6f;
+}
+
+.dropdown-item:hover {
+    background-color: #c638ca;
+}
+/* End Navbar */
+
+
+
+/* Start Images Cover */
+.img-fluid {
+    margin-top: -10px;
+}
+
+.Images-Cover {
+    position: absolute;
+    top: 410px;
+    left: 46px;
+}
+
+.Images-Cover h2 {
+    font-size: 94px;
+    text-align: center;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -3px white;
+}
+
+.Images-Cover p {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    color: white;
+}
+
+.button-cover {
+    margin-left: 540px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #f74e6f;
+    border: 1px solid #f74e6f;
+}
+
+.button-cover:hover {
+    padding: 10px;
+    color: white;
+    background-color: #c638ca;
+    border: 1px solid #c638ca;
+}
+/* End Images Cover */
+
+
+
+
+
+/* Start Section Paragraph */
+.left {
+    margin: 50px 0px 10px 0px;
+    padding: 20px;
+}
+
+.left h5 {
+    text-transform: uppercase;
+    font-family: Georgia;
+    color: #f74e6f;
+}
+
+.button-Paragraph {
+    background-color: #f74e6f;
+    border: 1px solid #f74e6f;
+    color: white;
+}
+
+.button-Paragraph:hover {
+    background-color: transparent;
+    color: #c638ca;
+    border: 1px solid #c638ca;
+}
+
+.right {
+    margin: 73px 0px 10px 0px;
+}
+
+.right-down {
+    margin-top: -180px;
+}
+
+.Heading {
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Georgia;
+}
+
+.Heading a {
+    text-decoration: none;
+    color: #f74e6f;
+}
+
+.Heading a:hover {
+    color: #c638ca;
+}
+/* End Section Paragraph */
+
+
+
+
+/* Start Section suggestions */
+.Music-Background {
+    width: 100%;
+    height: 653px;
+    object-fit: cover;
+    margin-top: 30px;
+}
+
+.write-background {
+    position: absolute;
+    background-color: rgba(255,255,255,.8);
+    top: 1426px;
+    height: 657px;
+    right: 12px;
+    width: 50%;
+}
+
+.background-one {
+    margin-top: 100px;
+    margin-left: 37px;
+}
+
+.background-one h2 {
+    text-transform: uppercase;
+    font-family: Georgia;
+    color: #f74e6f;
+    width: 106%;
+    margin-top: 15px;
+}
+
+.background-one h2:hover {
+    color: #c638ca;
+}
+
+.background-one p {
+    font-family: Georgia;
+    width: 123%;
+    color: #474747;
+    width: 116%;
+}
+
+.background-two {
+    margin-left: 37px;
+    list-style-type: none;
+}
+
+.background-two article a {
+    text-decoration: none;
+    color: #f74e6f;
+}
+
+.background-two article a:hover {
+    color: #c638ca;
+}
+
+.background-two article a i {
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #f74e6f;
+    color: #f74e6f;
+    margin-left: -30px;
+    margin-top: 30px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.background-two article a i:hover {
+    border: 1px solid #c638ca;
+    background-color: #c638ca;
+    color: white;
+}
+
+.background-two .heading {
+    margin-left: 35px;
+    margin-top: -44px;
+    color: #474747;
+    text-transform: uppercase;
+}
+
+.background-two p {
+    margin-left: 35px;
+    color: #474747;
+}
+
+.background-two footer {
+    margin-left: 35px;
+}
+/* End Section suggestions */
+
+
+
+
+
+/* Start photo and paragraph */
+.background {
+    background-image: url(../images/music-4775509_1920.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}
+
+.background-cover {
+    background-color: rgb(58 56 94 / 45%);
+    height: 400px;
+}
+
+.center {
+    margin-top: 70px;
+    color: white;
+}
+
+.center h3 {
+    margin-bottom: 30px;
+    width: 107%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Georgia;
+}
+
+.center p {
+    text-align: center;
+}
+
+.button-cover2 {
+    margin-top: 20px;
+    margin-left: 195px;
+    font-size: 20px;
+    background-color: #f74e6f;
+    border: 1px solid #f74e6f;
+}
+
+.button-cover2:hover {
+    color: white;
+    background-color: #c638ca;
+    border: 1px solid #c638ca;
+}
+/* End photo and paragraph */
+
+
+
+
+
+
+/* Start section Details */
+.center-Details {
+    margin-top: 70px;
+    color: #474747;
+}
+
+.center-Details h5 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Georgia;
+}
+
+.center-Details p {
+    text-align: center;
+}
+
+.Details {
+    margin-bottom: 60px;
+}
+
+/* End section Details */
+
+
+
+
+/* Start Section About */
+.background-about {
+    background-image: url(../images/headphones_music_grayscale_earphones_monochrome_black_background_1920x1200.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+}
+
+.background-cover-about {
+    background-color: rgb(58 56 94 / 45%);
+    height: 500px;
+}
+
+.about {
+    margin-top: 70px;
+    color: white;
+}
+
+.about .rounded {
+    border-radius: 74px!important;
+    width: 120px;
+}
+
+.about p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.about h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Georgia;
+    margin-top: 55px;
+}
+
+.about .about-paragraph {
+    margin-top: -9px;
+}
+/* End Section About */
+
+
+
+
+
+
+
+
+
+
+/* Start Section Footer */
+
+
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-section {
+    background: #151414;
+    position: relative;
+}
+.footer-cta {
+    border-bottom: 1px solid #373636;
+}
+.single-cta i {
+    color: #f74e6f;
+    font-size: 30px;
+    float: left;
+    margin-top: 8px;
+}
+.cta-text {
+    padding-left: 15px;
+    display: inline-block;
+}
+.cta-text h4 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.cta-text span {
+    color: #757575;
+    font-size: 15px;
+}
+.footer-content {
+    position: relative;
+    z-index: 2;
+}
+.footer-pattern img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 330px;
+    background-size: cover;
+    background-position: 100% 100%;
+}
+.footer-logo {
+    margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 100px;
+}
+.footer-text p {
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: #7e7e7e;
+    line-height: 28px;
+}
+.footer-social-icon span {
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+}
+.footer-social-icon a {
+    color: #fff;
+    font-size: 16px;
+    margin-right: 15px;
+}
+.footer-social-icon i {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 50%;
+}
+.facebook-bg{
+    background: #3B5998;
+}
+.twitter-bg{
+    background: #55ACEE;
+}
+.google-bg{
+    background: #DD4B39;
+}
+.footer-widget-heading h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative;
+}
+.footer-widget-heading h3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    height: 2px;
+    width: 50px;
+    background: #f74e6f;
+}
+.footer-widget ul li {
+    display: inline-block;
+    width: 50%;
+    margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+    color: #f74e6f;
+}
+.footer-widget ul li a {
+    color: #878787;
+    text-transform: capitalize;
+}
+.subscribe-form {
+    position: relative;
+    overflow: hidden;
+}
+.subscribe-form input {
+    width: 100%;
+    padding: 14px 28px;
+    background: #2E2E2E;
+    border: 1px solid #2E2E2E;
+    color: #fff;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #f74e6f;
+    padding: 13px 20px;
+    border: 1px solid #f74e6f;
+    top: 0;
+}
+.subscribe-form button i {
+    color: #fff;
+    font-size: 22px;
+    transform: rotate(-6deg);
+}
+.copyright-area{
+    background: #202020;
+    padding: 25px 0;
+}
+.copyright-text p {
+    margin: 0;
+    font-size: 14px;
+    color: #878787;
+}
+.copyright-text p a{
+    color: #f74e6f;
+}
+.footer-menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.footer-menu li:hover a{
+    color: #f74e6f;
+}
+.footer-menu li a {
+    font-size: 14px;
+    color: #878787;
+}
+
+
+
+
+
+/* End Section Footer */
+
+
+/* ==============================================
+---------- Max Wrapper Width - Laptop ---------- 
+=============================================== */
+@media screen and (max-width:900px){
+
+    /* topbar */
+	.topbar {
+        max-width:100%;
+    }
+
+    .rounded {
+        margin-left: 50px;
+    }
+
+    /* Images Cover */
+    .Images-Cover {
+        position: absolute;
+        top: 490px;
+        left: 0px;
+    }
+
+    .Images-Cover h2 {
+        font-size: 25px;
+        text-align: center;
+        text-shadow: none;
+    }
+
+    .Images-Cover p {
+        display: none;
+    }
+
+    .button-cover {
+        margin-left: 100px;
+        margin-bottom: 200px;
+        font-size: 15px;
+    }
+
+    
+    /* Start Section suggestions */
+    .Music-Background {
+        width: 100%;
+        height: 216px;
+        object-fit: cover;
+    }
+
+}
